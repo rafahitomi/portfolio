@@ -107,6 +107,10 @@ body {
   background-color: var(--cor-hover);
 }
 
+.apresentacao__titulo {
+  font-weight: bold;
+}
+
 .rodape {
   background-color: var(--cor-terciaria);
   color: var(--cor-primaria);
