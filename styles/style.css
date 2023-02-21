@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 :root {
-  --cor-primaria: #1572A1; /* Paleta de Cores: https://colorhunt.co/palette/1572a19ad0ecefdad7e3bec6 */
-  --cor-secundaria: #EFDAD7;
-  --cor-terciaria: #E3BEC6;
+  --cor-primaria: #2B3467; /* Paleta de Cores: https://colorhunt.co/palette/2b3467bad7e9fcffe7eb455f */
+  --cor-secundaria: #FCFFE7;
+  --cor-terciaria: #EB455F;
   --cor-hover: #58b1e0; /* Alterei para 25% mais escuro: https://encycolorpedia.pt/9ad0ec */
 
   --fonte-primaria: 'Krona One', sans-serif;
@@ -107,10 +107,6 @@ body {
   background-color: var(--cor-hover);
 }
 
-.apresentacao__titulo {
-  font-weight: bold;
-}
-
 .rodape {
   background-color: var(--cor-terciaria);
   color: var(--cor-primaria);
@@ -120,3 +116,14 @@ body {
   padding: 24px;
   text-align: center;
 }
+
+/* .apresentacao__conteudo__educacao {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.apresentacao__texto__educacao {
+  display: flex;
+} */
