@@ -15,20 +15,22 @@
   padding: 0;
 }
 
+
+/* Estilização da página Home */
+
 body {
-  /* height: 100vh; */
   box-sizing: border-box;
   background-color: var(--cor-primaria);
   color: var(--cor-secundaria);
 }
 
 .cabecalho {
-  padding: 2% 0% 0% 15%;
+  padding: 2rem 0 0 12rem;
 }
 
 .cabecalho__menu {
   display: flex;
-  gap: 80px;
+  gap: 5rem;
 }
 
 .cabecalho__menu__link {
@@ -43,14 +45,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5% 15%;
+  gap: 5rem;
+  padding: 5rem 12rem;
 }
 
 .apresentacao__conteudo {
-  width: 615px;
+  width: 38rem;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  justify-content: space-between;
+  gap: 3rem;
 }
 
 .apresentacao__conteudo__titulo {
@@ -68,16 +72,12 @@ body {
   font-size: 24px;
 }
 
-.nome__destaque:hover {
-  color: var(--cor-terciaria);
-}
-
 .apresentacao__links {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
-  gap: 32px;
+  gap: 1rem;
 }
 
 .apresentacao__links__subtitulo {
@@ -88,32 +88,23 @@ body {
 
 .apresentacao__links__link {
   background-color: var(--cor-primaria);
-  width: 381px;
+  width: 24rem;
   text-align: center;
-  border-radius: 8px;
+  border-radius: 0.5rem;
+  font-family: var(--fonte-secundaria);
   font-size: 24px;
   font-weight: 600;
-  font-family: var(--fonte-secundaria);
-  padding: 21.5px 0;
+  padding: 1.3rem 0;
   text-decoration: none;
   color: var(--cor-secundaria);
-  border: 2px solid var(--cor-terciaria);
+  border: 0.15rem solid var(--cor-terciaria);
   display: flex;
   justify-content: center;
-  gap: 16px;
+  gap: 1rem;
 }
 
 .apresentacao__links__link:hover {
   background-color: var(--cor-hover);
-}
-
-.projetos__texto {
-  padding: 1em 0 0.5em 0;
-}
-
-.projetos__imagem {
-  width: 200%;
-  padding: 0 0 1em 0;
 }
 
 .rodape {
@@ -122,6 +113,36 @@ body {
   font-family: var(--fonte-secundaria);
   font-size: 20px;
   font-weight: 400;
-  padding: 24px;
+  padding: 1.5rem;
   text-align: center;
+}
+
+
+/* Estilização da página Sobre mim */
+
+
+/* Estilização da página Currículo */
+
+.experiencia__conteudo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.curriculo__conteudo__texto {
+  font-family: var(--fonte-secundaria);
+  font-weight: 400;
+  font-size: 24px;
+  list-style: none;
+}
+
+.projetos__texto {
+  padding: 1em 0 0.5em 0;
+}
+
+.projetos__imagem {
+  width: 100%;
+  padding: 0 0 2em 0;
 }
